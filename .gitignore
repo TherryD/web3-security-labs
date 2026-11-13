@@ -1,0 +1,13 @@
+cat << 'EOF' > .gitignore
+cache/
+out/
+.venv/
+broadcast/
+EOF
+
+git init
+git add .
+git commit -m "feat: laboratorios de auditoria Web3 (Reentrancia e Ethernaut Fallback)"
+git branch -M main
+git remote add origin COLE_AQUI_A_URL_DO_SEU_REPOSITORIO
+git push -u origin main
