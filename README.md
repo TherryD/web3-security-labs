@@ -26,16 +26,12 @@ Repositório dedicado aos meus estudos práticos de auditoria de contratos intel
 
 ## 🚀 Como Executar Localmente
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/therryd/web3-security-labs.git](https://github.com/therryd/web3-security-labs.git)
-   cd web3-security-labs
+1. Clone o repositorio:
+    git clone https://github.com/therryd/web3-security-labs.git
+    cd web3-security-labs
 
 2. Execute as Provas de Conceito com logs detalhados:
+    forge test -vv
 
-  ```bash
-forge test -vv
-
-3.Execute a análise estática com o Slither:
-```bash
-slither .
+3. Execute a analise estatica com o Slither:
+    slither .
