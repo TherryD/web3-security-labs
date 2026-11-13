@@ -31,9 +31,11 @@ Repositório dedicado aos meus estudos práticos de auditoria de contratos intel
    git clone [https://github.com/therryd/web3-security-labs.git](https://github.com/therryd/web3-security-labs.git)
    cd web3-security-labs
 
-Execute as Provas de Conceito com logs detalhados:
+2. Execute as Provas de Conceito com logs detalhados:
 
-   Bash
+  ```bash
 forge test -vv
 
-Execute a análise estática com o Slither:
+3.Execute a análise estática com o Slither:
+```bash
+slither .
